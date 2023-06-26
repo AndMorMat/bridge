@@ -1,0 +1,1 @@
+export { CalendarModule, requestCalendarPermission } from "./calendar-module";
