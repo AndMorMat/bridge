@@ -17,7 +17,6 @@ export default function App() {
       console.log("O aplicativo não tem permissão para gerenciar o calendário")
       return
     }
-
     CalendarModule.createCalendarEvent(
       '1656091171000', // eventStartMillis
       '1656101971000', // eventEndMillis
@@ -30,9 +29,9 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Android bridge study</Text>
       <Button
-        title="Click to invoke your native module!"
+        title="Add calendar event!"
         color="#841584"
         onPress={onPress}
       />
